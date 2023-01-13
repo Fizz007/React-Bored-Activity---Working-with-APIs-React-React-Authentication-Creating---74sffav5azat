@@ -7,7 +7,7 @@ const App = () => {
   // function for url link
   function makeURL(type) {
     console.log(type);
-    return `https://www.boredapi.com/api/activity?type=${type}`;
+    return `http://www.boredapi.com/api/activity?type=${type}`;
   }
   // We can use two types
   // recreational or education.
